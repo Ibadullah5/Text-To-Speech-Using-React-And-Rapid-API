@@ -1,0 +1,41 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav a {
+  text-decoration: none;
+
+  position: absolute;
+  left: 80%;
+
+  background-color: black;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  color: var(--primary-color);
+  padding: 10px 20px;
+
+  font-family: var(--primary-font);
+  font-weight: 200;
+  font-size: 15px;
+
+  cursor: pointer;
+}
+
+.nav img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.nav h1 {
+  font-family: var(--primary-font);
+  color: var(--seconadry-color);
+  font-weight: 500;
+}
+
+.nav span {
+  color: black;
+}
